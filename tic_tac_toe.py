@@ -97,7 +97,7 @@ def play_game():
         print_board(board)
         
         if check_winner(board, PLAYER_X):
-            print("Congratulations! You win!")
+            print("AI! wins!")
             break
         if is_board_full(board):
             print("It's a draw!")
@@ -109,7 +109,7 @@ def play_game():
         print_board(board)
         
         if check_winner(board, PLAYER_O):
-            print("AI wins! Better luck next time.")
+            print("congratulations you wins")
             break
         if is_board_full(board):
             print("It's a draw!")
